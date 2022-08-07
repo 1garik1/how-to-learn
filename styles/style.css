@@ -23,9 +23,6 @@
   left: 64px;
   z-index: 3;
 }
-
-
-
   .header_title {
   width: 730px;
   display: flex;
@@ -35,8 +32,6 @@
   font-size: 102px;
   line-height: 92px;
   margin: 0;
-
-
 }
 .header_subtitle {
   position: absolute;
@@ -45,8 +40,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-
-
 }
 .header_link {
   text-decoration: none;
