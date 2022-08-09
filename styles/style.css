@@ -22,8 +22,9 @@
   align-items: center;
   font-weight: 600;
   font-size: 102px;
-  line-height: 92px;
+  line-height: 96px;
   padding-left: 64px;
+  margin: 0;
   z-index: 3;
 }
 
@@ -213,6 +214,7 @@
 .feynman__subtitle {
   z-index: 2;
   margin-top: 0;
+  margin-bottom: 0;
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
@@ -269,10 +271,14 @@
 }
 
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
   right: -210px;
   top: 0;
   z-index: 1;
+  min-width: 877px;
+  min-height: 877px;
+  background-size: cover;
 }
 
 .footer {
